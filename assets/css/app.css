@@ -1,0 +1,38 @@
+html {
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	width: 100%;
+}
+
+input {
+	outline: none;
+}
+
+h1 {
+	@apply font-semibold
+  text-5xl;
+}
+
+.comp_margin {
+	@apply my-36;
+}
+
+button {
+	@apply border-2
+	border-black
+	px-12
+	py-4
+	rounded-full
+	font-semibold;
+
+	vertical-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+  .container {
+		width: 90%;
+		margin: inherit auto;
+	}
+}
